@@ -134,7 +134,7 @@
 
       handleSizeChange(size){
         this.pagesize = size
-        this.getTableData()
+        this.getTableData();
       },
       handleCurrentChange(currentPage){
         this.currentPage = currentPage
