@@ -138,7 +138,7 @@
       },
       handleCurrentChange(currentPage){
         this.currentPage = currentPage
-        this.getTableData()
+        this.getTableData();
       },
     }
   }
